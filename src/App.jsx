@@ -1,5 +1,4 @@
 import "./App.css";
-import { Route, Routes } from "react-router-dom";
 import Navigation from "./components/Navigation/Navigation.jsx";
 import MovieReviews from "./components/MovieReviews/MovieReviews.jsx";
 import MovieCast from "./components/MovieCast/MovieCast.jsx";
@@ -24,7 +23,7 @@ function App() {
           <Route path="/movies" element={<MovePage />} />
           <Route path="/movies/:movieId" element={<MovieDetailsPage />}>
             <Route path="reviews" element={<MovieReviews />} />
-            <Route path="cast" element={<MovieCast />} />
+            <Route path="cast" element={<MovieCast />} />X
           </Route>
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
