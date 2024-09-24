@@ -1,4 +1,4 @@
-/* .nav {
+ .nav {
     display: flex;
     gap: 30px;
     justify-content: center;
@@ -25,4 +25,4 @@
 .link:hover,
 .link:focus {
     color: rgb(167, 162, 160);
-} */
+} 
